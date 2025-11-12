@@ -1,0 +1,107 @@
+.shop-items {
+ .shop-items {
+  position: absolute;      
+  bottom: 0;               
+  left: 0;                 
+  width: 50vw;             
+  height: 33vh;            /* un tercio del alto de la ventana */
+  overflow-y: auto;        /* si hay muchos items, permite scroll */
+  background: rgba(255, 255, 255, 0.1); /* semitransparente para ver fondo */
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;         /* los items se acomodan en varias filas */
+  gap: 10px;               /* separación entre items */
+  z-index: 500;            /* por encima del fondo pero debajo del diálogo si quieres */
+}
+
+  
+}
+
+
+.shop-item {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  width: 180px;       
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.shop-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+}
+
+
+.item-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.item-header img,
+.item-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;  
+  object-fit: cover;    
+  margin-bottom: 10px;
+}
+
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-info strong {
+  font-size: 1rem;
+}
+
+.item-info span {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+.item-description {
+  font-size: 0.85rem;
+  text-align: center;
+  margin: 10px 0;
+}
+
+
+.add-button {
+  background-color: #6b5b95;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-button:hover {
+  background-color: #563d7c;
+}
+
+.wizard-dialogue {
+  background-color: #f0e68c;
+  border: 2px solid #b8860b;
+  border-radius: 15px;
+  padding: 10px 15px;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  font-style: italic;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
