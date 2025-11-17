@@ -1,4 +1,3 @@
-
 .shop-background {
   position: fixed;
   top: 0;
@@ -6,13 +5,12 @@
   width: 100vw;
   height: 100vh;
   background-image: url("../img/WizardBackground.png");
-  background-size: cover;          
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center center; 
-  background-attachment: fixed;    
+  background-position: center center;
+  background-attachment: fixed;
   background-color: #0e0a1a;
   z-index: 0;
- 
 }
 
 
@@ -56,7 +54,7 @@
   font-size: 1.4rem;            
   border: none;
   border-radius: 12px;
-  background-color: #775012;
+  background-color: #2a82c1;
   color: white;
   cursor: pointer;
   z-index: 100;                 
@@ -64,18 +62,18 @@
 }
 
 .show-items-btn:hover {
-  background-color: #c1b271;
+  background-color: #78c6e8;
   transform: translate(-50%, -50%) scale(1.05); 
 }
 
 
 .shop-items-container {
   position: fixed;
-  top: 63%;
-  left: 50%;
+  top: 68%;
+  left: 40%;
   transform: translate(-50%, -50%);
   width: 70vw;
-  height: 70vh;
+  height: 52vh;
   background: rgba(255, 255, 255, 0.1); 
   backdrop-filter: blur(10px);
   border-radius: 16px;
@@ -88,16 +86,17 @@
   z-index: 500;
 }
 
-.close-btn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
+.close-button {
+  position: relative;
+  top: -10px;
+  right: -420px;
   border: none;
-  background: transparent;
-  color: white;
+  background: white;
+  color: rgb(30, 9, 9);
   font-size: 1.5rem;
   cursor: pointer;
   transition: transform 0.2s;
+  border-radius: 60%;
 }
 
 .close-btn:hover {

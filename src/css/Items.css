@@ -23,7 +23,8 @@
   border: 1px solid #ccc;
   border-radius: 12px;
   padding: 10px;
-  width: 180px;       
+  width: 200px;   
+  height: 150px;    
   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
   background-color: #fefefe;
   display: flex;
@@ -80,7 +81,7 @@
 
 
 .add-button {
-  background-color: #6b5b95;
+  background-color: #db6d54;
   color: white;
   border: none;
   padding: 5px 10px;
@@ -90,7 +91,7 @@
 }
 
 .add-button:hover {
-  background-color: #563d7c;
+  background-color: #540f0f;
 }
 
 .wizard-dialogue {
@@ -105,3 +106,9 @@
   box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
 }
 
+.coin-icon {
+  width: 20px;       /* tamaño a tu gusto */
+  height: 20px;
+  vertical-align: middle; /* que quede alineado con el texto */
+  margin-left: 4px;
+}
