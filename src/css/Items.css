@@ -4,15 +4,15 @@
   bottom: 0;               
   left: 0;                 
   width: 50vw;             
-  height: 33vh;            /* un tercio del alto de la ventana */
-  overflow-y: auto;        /* si hay muchos items, permite scroll */
-  background: rgba(255, 255, 255, 0.1); /* semitransparente para ver fondo */
+  height: 33vh;            
+  overflow-y: auto;        
+  background: rgba(255, 255, 255, 0.1); 
   padding: 10px;
   border-radius: 10px;
   display: flex;
-  flex-wrap: wrap;         /* los items se acomodan en varias filas */
-  gap: 10px;               /* separación entre items */
-  z-index: 500;            /* por encima del fondo pero debajo del diálogo si quieres */
+  flex-wrap: wrap;        
+  gap: 10px;               
+  z-index: 500;           
 }
 
   
