@@ -55,7 +55,7 @@
   border: none;
   border-radius: 12px;
   background-color: #2a82c1;
-  color: white;
+  color: #97826d;
   cursor: pointer;
   z-index: 100;                 
   transition: background 0.3s, transform 0.2s;
